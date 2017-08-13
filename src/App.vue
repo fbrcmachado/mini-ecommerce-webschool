@@ -1,30 +1,18 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-    <CctesteComponent></CctesteComponent>
+  <div class="phone-viewport">
+    <md-toolbar>
+      <h1 class="md-title">Ecommerce Webschool</h1>
+    </md-toolbar>
   </div>
 </template>
 
 <script>
-  import CctesteComponent from './components/testeComponent.vue'
-
   export default {
-    name: 'testeComponent',
-    components: {
-      CctesteComponent
-    }
+    name: 'testeComponent'
   }
 
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+
 </style>
